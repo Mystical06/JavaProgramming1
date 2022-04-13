@@ -22,6 +22,7 @@ public class ArithmeticOperators {
         System.out.println(100.0 / 3); // now it will give a decimal number as 33.33333
         System.out.println(100d / 3);  // just adding a 'd or D' at the end of any number it will give decimal result as 33.333
 
+        System.out.println("==========================================================================================");
         int a = 100;
         double b = a/6;  // 16.0
         System.out.println(b);

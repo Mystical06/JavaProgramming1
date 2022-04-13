@@ -96,7 +96,7 @@ public class ShortHandOperators {
 
         num3 %= 3;
 
-        System.out.println("num3 = " + num3);
+        System.out.println("num3 = " + num3);// num3= 1.0
         System.out.println("-----------------------------");
 
         int amount = 127;  // cents

@@ -18,6 +18,7 @@ public class NestedIfIntro {
 
         int age = 19;
         boolean hasId = true;
+
         if (hasId) {
 
 

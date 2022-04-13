@@ -6,7 +6,7 @@ public class StringMethods1 {
         //******trim() method****
 
         String str1 = "    batch 25          ";
-        str1 = str1.trim();//"batch 25"#
+        str1 = str1.trim();//"batch 25"
 
         System.out.println(str1);
 
