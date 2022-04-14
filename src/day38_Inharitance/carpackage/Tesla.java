@@ -5,7 +5,7 @@ public class Tesla extends Car {
         super("Tesla", model, year, price, colour, miles);
     }
 
-    public void utoPilot(){
+    public void autoPilot(){
         System.out.printf(brand + model + " has an autopilot feature.");
     }
 }
