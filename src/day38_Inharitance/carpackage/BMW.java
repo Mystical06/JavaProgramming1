@@ -11,7 +11,7 @@ public class BMW extends Car{
     }
 
     public void racing(){
-        System.out.printf(brand + model + " is suitable for racing.");
+        System.out.printf(brand + " "+ model + " is suitable for racing.");
     }
 
 }

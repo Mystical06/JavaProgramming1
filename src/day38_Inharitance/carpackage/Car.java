@@ -17,11 +17,11 @@ public class Car {
     }
 
     public void start(){
-       System.out.printf(brand + model + "starts at once.");
+       System.out.println (brand + " " + model + " starts at once.");
    }
 
    public void drive(){
-       System.out.printf(brand + model + "drives fast");
+       System.out.println (brand +" "+ model + " drives fast");
    }
 
     public String toString() {
