@@ -1,4 +1,4 @@
-package day39_Recap;
+package day39_Recap.shapeTask;
 
 public class Square extends Shapes {
 
