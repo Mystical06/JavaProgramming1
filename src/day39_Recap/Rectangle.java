@@ -41,12 +41,17 @@ public class Rectangle extends Shapes {
 
     @Override
     public double perimeter() {
-        return 2 * length * width;
+        return 2 * (length + width);
     }
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Rectangle{" +
+                "length=" + length +
+                ", width=" + width +
+                ", area='" + area() + '\'' +
+                ", perimeter ='" + perimeter() + '\'' +
+                '}';
     }
 }
 /*
