@@ -23,7 +23,7 @@ public class Shapes {
     }
 
     public Shapes(String name) {
-        this.name = name;
+        setName(name);
     }
 
     public double area(){
@@ -36,9 +36,21 @@ public class Shapes {
 
 
 
+    @Override
+    public String toString() {
+        return "Shapes{" +
+                "name='" + name + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter ='" + perimeter() + '\'' +
+                '}';
 
+    }
 
 }
+
+
+
+
 /*
 Shape:
 	variable:
