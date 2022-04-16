@@ -11,6 +11,23 @@ public class ShapeObjects {
         System.out.println( "Perimeter: " + square1.perimeter());
 
 
+        System.out.println("=====================================================================================");
+
+
+        Rectangle rectangle = new Rectangle(15,10);
+
+        System.out.println(rectangle);
+
+
+        System.out.println("****************************************************************************************");
+
+
+
+        Circle circle = new Circle(13);
+
+        System.out.println(circle);
+
+
 
 
 
