@@ -17,14 +17,6 @@ public class Person {
     }
 
     public void setName(String name) {
-        if (name==null){
-            System.err.println("Name cannot be null");
-            System.exit(1);
-        }
-        if (name.isEmpty() || name.isBlank()){
-            System.err.println("Invalid name");
-            System.exit(1);
-        }
         this.name = name;
     }
 
@@ -33,9 +25,6 @@ public class Person {
     }
 
     public void setAge(int age) {
-        if (age<=0 || age>150)
-            System.err.println("Invalid age ");
-        System.exit(1);
         this.age = age;
     }
 
